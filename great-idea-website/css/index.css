@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500&display=swap');
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -82,14 +83,23 @@ hr {
 	margin: 40px 0px;
 }
 
+h2 {
+	font-size: 22px;
+}
+p {
+	font-family: 'Roboto Mono', monospace;
+	line-height: 20px;
+}
+
 /******* Header Styling *****/
 
 header {
-	background-color: bisque;
+	background-color: lightblue;
 	display: block;
-	padding: 40px 0px;
+	padding: 40px 10px;
 	position: fixed;
 	top: 0%;
+	z-index: 2;
 	
 }
 
@@ -147,9 +157,10 @@ button {
 	background: white;
 	border: 1px solid black;
 	display: block;
+	font-size: 18px;
 	margin: auto;
 	text-decoration: none;
-	padding: 10px 40px;
+	padding: 10px 50px;
 }
 
 
